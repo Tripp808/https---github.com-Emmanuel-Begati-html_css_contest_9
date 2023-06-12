@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concierge Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Responsive Styles */
+
+        /* Mobile */
+        @media (max-width: 480px) {
+            .hero-title {
+                font-size: 24px;
+            }
+
+            .hero-description {
+                font-size: 16px;
+            }
+
+            .btn {
+                padding: 8px 16px;
+            }
+
+            .service {
+                flex-direction: column;
+            }
+
+            .service-image {
+                width: 100%;
+                height: auto;
+                margin-bottom: 10px;
+            }
+        }
+
+        /* Tablet */
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 36px;
+            }
+
+            .hero-description {
+                font-size: 18px;
+            }
+
+            .btn {
+                padding: 10px 18px;
+            }
+        }
+
+        /* Desktop */
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 1200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="logo">Concierge Nigeria</h1>
+        <img src="images/web logo.jpg" alt="Concierge Logo" class="logo-image">
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">Welcome to Concierge</h2>
+            <p class="hero-description">Your one-stop destination for all your travel and entertainment needs in Nigeria.</p>
+            <a href="#" class="btn btn-primary">Discover Services</a>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Explore Our Services</h2>
+            <div class="service">
+                <img src="images/smiley-woman.jpg" alt="Flight Booking" class="service-image">
+                <div class="service-details">
+                    <h3 class="service-title">Flight Booking</h3>
+                    <p class="service-description">Book your flights with ease and convenience.</p>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="service">
+                <img src="images/reservation.jpg" alt="Hotel Reservation" class="service-image">
+                <div class="service-details">
+                    <h3 class="service-title">Hotel Reservation</h3>
+                    <p class="service-description">Find the perfect accommodation for your stay.</p>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="service">
+                <img src="images/rental.jpg" alt="Car Rental" class="service-image">
+                <div class="service-details">
+                    <h3 class="service-title">Car Rental</h3>
+                    <p class="service-description">Rent a car for your transportation needs.</p>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="service">
+                <img src="images/tickets.jpg" alt="Event Tickets" class="service-image">
+                <div class="service-details">
+                    <h3 class="service-title">Event Tickets</h3>
+                    <p class="service-description">Get tickets to concerts, shows, and sporting events.</p>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="service">
+                <img src="images/restuarant.jpg" alt="Restaurant Reservations" class="service-image">
+                <div class="service-details">
+                    <h3 class="service-title">Restaurant Reservations</h3>
+                    <p class="service-description">Make reservations at the finest restaurants.</p>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="service">
+                <img src="images/tourist.jpg" alt="Tour Packages" class="service-image">
+                <div class="service-details">
+                    <h3 class="service-title">Tour Packages</h3>
+                    <p class="service-description">Explore exciting tour packages for local attractions.</p>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Concierge. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

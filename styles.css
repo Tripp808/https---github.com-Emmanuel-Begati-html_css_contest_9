@@ -1,0 +1,169 @@
+/* Global Styles */
+
+body {
+    font-family: 'Futura PT', 'Museo Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+
+.header {
+    background-color: #228B22;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hero Section */
+
+.hero {
+    background-image: url('images/travel\ background.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: center;
+    background-color: rgba(34, 139, 34, 0.7);
+    padding: 20px;
+}
+
+.hero-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.hero-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.hero-description strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.btn-primary {
+    background-color: #5cb85c;
+}
+
+.btn-secondary {
+    background-color: #f0ad4e;
+}
+
+/* Services Section */
+
+.services {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.service {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.service-image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.service-details {
+    flex-grow: 1;
+}
+
+.service-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #333;
+}
+
+.service-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #666;
+}
+
+/* Additional Styles */
+
+body {
+    background-position: top;
+}
+
+.header {
+    background-color: #228B22;
+}
+
+.logo {
+    color: #fff;
+}
+
+.hero-description {
+    color: #222;
+}
